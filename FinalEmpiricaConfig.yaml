@@ -1,0 +1,73 @@
+treatments:
+  - name: Two Players
+    factorIds:
+      - xZQ9AjXoMrytFZB9F
+      - n8kwW4x7kQraE4tSd
+  - name: Three Players
+    factorIds:
+      - FGtQwqdbityvWANEv
+      - xZQ9AjXoMrytFZB9F
+    archivedAt: 2023-01-18T03:17:50.666Z
+  - name: Three Players Dense
+    factorIds:
+      - xZQ9AjXoMrytFZB9F
+      - FGtQwqdbityvWANEv
+  - name: Two Players Sparse
+    factorIds:
+      - XQTs9oaspAffQbfH6
+      - n8kwW4x7kQraE4tSd
+  - name: Three Players Sparse
+    factorIds:
+      - XQTs9oaspAffQbfH6
+      - FGtQwqdbityvWANEv
+  - name: Single Player Dense
+    factorIds:
+      - xZQ9AjXoMrytFZB9F
+      - kKQ5MqnFASubz3vTS
+  - name: Single Player Sparse
+    factorIds:
+      - XQTs9oaspAffQbfH6
+      - kKQ5MqnFASubz3vTS
+factorTypes:
+  - _id: z6P4dA3EQGxFPrdMz
+    name: playerCount
+    description: The Number of players participating in the given game.
+    required: true
+    type: Integer
+    min: 1
+  - _id: Xq5Jk3vWbXCL3jYtY
+    name: fractionalDistanceDotFromSide
+    description: >-
+      represents the distance from any outside dot to the nearest side of the
+      box as a fraction of the side length
+    required: true
+    type: Number
+    min: 0.05
+    max: 0.4
+factors:
+  - _id: kKQ5MqnFASubz3vTS
+    name: '1'
+    value: 1
+    factorTypeId: z6P4dA3EQGxFPrdMz
+  - _id: n8kwW4x7kQraE4tSd
+    name: '2'
+    value: 2
+    factorTypeId: z6P4dA3EQGxFPrdMz
+  - _id: FGtQwqdbityvWANEv
+    name: '3'
+    value: 3
+    factorTypeId: z6P4dA3EQGxFPrdMz
+  - _id: xZQ9AjXoMrytFZB9F
+    name: dense
+    value: 0.35
+    factorTypeId: Xq5Jk3vWbXCL3jYtY
+  - _id: XQTs9oaspAffQbfH6
+    name: sparse
+    value: 0.1
+    factorTypeId: Xq5Jk3vWbXCL3jYtY
+lobbyConfigs:
+  - name: default
+    timeoutType: lobby
+    timeoutInSeconds: 300
+    timeoutStrategy: fail
+    gameLobbyIds: []
