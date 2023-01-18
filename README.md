@@ -13,6 +13,9 @@ Dense:
 <img width="492" alt="Screen Shot 2023-01-17 at 7 28 42 PM" src="https://user-images.githubusercontent.com/68860714/213051944-c06a8103-d9d0-4ec7-905f-8c1777b6a50e.png">
 ___________________________________________________________________________________
 
+
+
+
 a) About how many hours did it take for you to implement this task?
 
 - I think that I spent about 20 hours implementing this task. The vast majority of the time was spent reading over documentation for React/JS to learn the syntax and debug. 
