@@ -11,18 +11,17 @@ Sparse:
 Dense:
 
 <img width="492" alt="Screen Shot 2023-01-17 at 7 28 42 PM" src="https://user-images.githubusercontent.com/68860714/213051944-c06a8103-d9d0-4ec7-905f-8c1777b6a50e.png">
-
+___________________________________________________________________________________
 
 a) About how many hours did it take for you to implement this task?
 
-- I think that I spent about 20 hours implementing this task so far. The vast majority of the time was spent reading over documentation for React/JS to learn the syntax and debug. 
+- I think that I spent about 20 hours implementing this task. The vast majority of the time was spent reading over documentation for React/JS to learn the syntax and debug. 
 
-- If I were to redo the task, or complete another task similar in size, I think that it would only take me ~3 hours to complete as I have a much greater understanding of the React frameworks after taking on this challenge.
-
+- If I were to redo the task, or complete another task similar in size, I think that it would only take me significantly less time as I have a much greater understanding of the React framework and JS language now.
 
 b) What was your biggest challenge in implementing this task?
 
-- Not knowing HTML/JS was a hurdle. The React/Meteor/Empirica framework was conceptually easy to understand from a systems engineering point of view, but I ended up spending a significant amount of time debugging because of my lack of familiarity with the syntax.
+- Not knowing HTML/JS was a the biggest hurdle. The React/Meteor/Empirica framework was conceptually easy to understand from a systems engineering point of view, but I ended up spending a significant amount of time debugging because of my lack of familiarity with the syntax.
 
 
 c) What was a key design decision you made for this implementation?
@@ -33,8 +32,8 @@ c) What was a key design decision you made for this implementation?
 Conversely if the spacing is small, the outisde dots will be right against the edge. This means that lines will have to travel outside the box in order to correctly solve the puzzle (i.e. they have to "think outside the box"). In any case, there is no directions indicating wether or not the line can actually be drawn outside.
 
 2) Social Exposure built right on to the game board
-
 - This makes it very easy for one player to take inspiration from the other players in his or her group
+- This gives us opportunities to explore group dynamics and Exploration vs Exploitation
 
 
 d) (If unfinished) What do you plan to implement next?
